@@ -1,0 +1,48 @@
+MySQL:
+  Host: localhost
+  Port: 3306
+  Username: root
+  Password: Password
+  Database: freunde
+General:
+  Language: english
+  UseOwnLanguageFile: 'false'
+  UpdateNotification: 'true'
+  PartyDoNotJoinTheseServers: lobby1|lobby2
+  DisableCommandP: 'false'
+  DisableMsg: 'false'
+  MaxPlayersInParty: 0
+  DisableCommand:
+    Friends:
+      List: 'false'
+      MSG: 'false'
+      Settings: 'false'
+      Jump: 'false'
+    Party:
+      Chat: 'false'
+      Info: 'false'
+      Kick: 'false'
+      Leader: 'false'
+Permissions:
+  FriendPermission: ''
+  PartyPermission: ''
+  NoPlayerLimitForPartys: ''
+Aliases:
+  FriendsAliasMsg: msg|chat
+  PartyAlias: party|party
+  JoinAlias: join|j
+  InviteAlias: invite|invite
+  KickAlias: kick|k
+  InfoAlias: info
+  leaveAlias: leave|leave
+  ChatAlias: chat|msg|message
+  LeaderAlias: leader|setleader
+  AcceptAlias: accept
+  AddAlias: add
+  DenyAlias: deny
+  SettingsAlias: settings
+  JumpAlias: jump
+  ListAlias: list|l
+  RemoveAlias: remove
+  FriendsAlias: friend|friends
+  PartyChatShortAlias: p|pc|pmsg

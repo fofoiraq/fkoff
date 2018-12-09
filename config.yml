@@ -1,0 +1,102 @@
+ip_forward: false
+network_compression_threshold: 256
+stats: 37167c2e-d548-479b-a259-a794fdeca8f9
+groups:
+  Fadi_King:
+  - admin
+servers:
+  hub:
+    motd: '&1welcome &2iraq &4craft'
+    address: localhost:1
+    restricted: false
+  eggwars:
+    motd: '&1welcome &2iraq &4craft'
+    address: localhost:56
+    restricted: false
+  skywars:
+    motd: '&&1welcome &2iraq &4craft'
+    address: localhost:100
+    restricted: false
+  ffa:
+    motd: '&&1welcome &2iraq &4craft'
+    address: localhost:300
+    restricted: false
+  skypvp:
+    motd: '&&1welcome &2iraq &4craft'
+    address: localhost:700
+    restricted: false
+  BedWars:
+    motd: '&&1welcome &2iraq &4craft'
+    address: localhost:400
+    restricted: false
+  BedWarsHp:
+    motd: '&&1welcome &2iraq &4craft'
+    address: localhost:111
+    restricted: false
+timeout: 30000
+player_limit: -1
+listeners:
+- query_port: 25565
+  motd: ''
+  priorities:
+  - hub
+  bind_local_address: true
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  host: localhost:25565
+  forced_hosts:
+    pvp.md-5.net: pvp
+  max_players: 250
+  tab_size: 60
+  ping_passthrough: false
+  force_default_server: true
+  proxy_protocol: false
+prevent_proxy_connections: false
+permissions:
+  default:
+  - skinsrestorer.playercmds
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.server
+  - bungeecord.command.reload
+  - bungeecord.command.list
+  - bungeecord.command.send
+  - skinsrestorer.playercmds
+  - skinsrestorer.cmds
+  - permission.node
+  - ab.help
+  - ab.check
+  - ab.check.ip
+  - ab.banlist
+  - ab.kick.use
+  - ab.kick.exempt
+  - ab.kick.notify
+  - ab.ban.perma
+  - ab.ban.exempt
+  - ab.ban.notify
+  - ab.warn.perma
+  - ab.warn.exempt
+  - ab.warn.notify
+  - ab.mute.perma
+  - ab.mute.exempt
+  - ab.mute.notify
+  - ab.ban.ip
+  - ab.ipban.exempt
+  - ab.ipban.notify
+  - ab.ban.temp
+  - ab.tempban.exempt
+  - ab.tempban.notify
+  - ab.history
+  - ab.ban.undo
+  - ab.unban.exempt
+  - ab.unban.notify
+  - ab.mute.undo
+  - ab.warn.undo
+  - ab.all.undo
+online_mode: false
+log_commands: false
+disabled_commands:
+- disabledcommandhere
+connection_throttle: 4000
